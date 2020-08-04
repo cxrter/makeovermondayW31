@@ -52,7 +52,7 @@ svg.append("text")
 
 
 //Read the data
-d3.csv("/makeovermondayW30/data-by-date.csv", function(data) {
+d3.csv("/makeovermondayW31/data-by-date.csv", function(data) {
 var new_data = data.filter(function(d){
         return d.year == 2020;
 })
